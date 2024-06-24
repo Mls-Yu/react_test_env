@@ -1,0 +1,196 @@
+/* Header */
+.title {
+    width: 86vw;
+    height: 12%;
+    position: fixed;
+    background-color: #c8dfee;
+    padding: 2px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+/* Menubar */
+.container {
+    background-color: #e7f6ff;
+    width: 20vw;
+    height: 61vh;
+    position: fixed;
+    top: 13.5%;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+}
+
+.tab {
+    color: #7cb6dd;
+    font-size: 28px;
+    font-weight: bolder;
+    opacity: 0.5;
+    width:16vw;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    background-color: #fff0f3;
+    border: dashed pink;
+    padding: 15px;
+    margin: 10px;
+}
+
+.tab:hover {
+    transition: all 0.4s;
+    background-position: 50% 50%;
+    opacity: 1;
+    background-color: #f2f6ff;
+    background-image: url('../img/stripe.png');
+    width: 19.3vw;
+    margin-left: 0px;
+    color: #ffffff;
+    border: solid #ffa8b7;
+    -webkit-text-stroke-color: #7cb6dd;
+    -webkit-text-stroke-width: 1px;
+    cursor: pointer;
+}
+
+.active-tab {
+    color: #ff9090;
+    opacity: 1;
+}
+
+.yuruchara {
+    position: absolute;
+    top: 62vh;
+    left: 0vw;
+    cursor: grab;
+}
+
+.yuruchara:hover::after {
+    color: #796f6f;
+    background-color: #dff2ff;
+    font-size: large;
+    content:'< どうも(クリックできます)';
+    padding:3px;
+    position:absolute;
+    width:240px;
+    height:30px;
+    left:80%;
+    top:74%;
+    border-radius:5px;
+}
+
+.content {
+    display: none;
+}
+
+.active-content {
+    display: block;
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(43, 43, 44);
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 0.2px;
+    width: 61.5vw;
+    height: 72vb;
+    position: absolute;
+    left: 22vw;
+    top: 17%;
+    padding: 20px 0px 10px 50px;
+    margin-left: 15px;
+    background-color: #eeeaf8;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.maintxt {
+    font-size: 28px;
+    margin-left: 7%;
+    font-weight: bolder;
+}
+
+.gallery {
+    background-color: #ffd6fd;
+    opacity: 0.8;
+    width: 20vw;
+    height: 40vh;
+    border: 5px solid #ffffff;
+    border-radius: 30px; 
+    border-width: 10px;
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+.foodPhoto {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.shift {
+    color: #67cfff;
+    -webkit-text-stroke: 6px #67cfff;
+    position: absolute;
+    font-size: 60px;
+    top: 48vh;
+    cursor: pointer;
+}
+
+.leftShift {
+    left: 270px;
+}
+
+.rightShift {
+    right: 270px;
+}
+
+.redShift {
+    color: red;
+}
+
+/* Link */
+.link {
+    width: 11vw;
+    height: 100vh;
+    background-color: #97deff;
+    padding: 5px;
+    transform: skew(-5deg,0deg);
+}
+
+/* TopPage */
+.TopPage {
+    height: 100vh;
+    overflow: hidden;
+    /* IE, Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+}
+
+/* Chrome, Safari */
+.TopPage::-webkit-scrollbar {
+display: none;
+}
+
+.menu {
+    width:20vw;
+}
+
+.Link {
+    position: fixed;
+    right: 1%;
+    top: 0%;
+}
+
+.belt {
+    width: 50vw;
+    height: 1vh;
+    background-color: #ffb8ca;
+    padding: 5px;
+    transform: skew(0deg,-30deg);
+    position: fixed;
+    right: 0%;
+    top: 95%;
+}
+
+.belt2 {
+    top: 100%;
+}

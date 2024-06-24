@@ -1,0 +1,7 @@
+html, body {
+    font-family: 游ゴシック, Arial, Impact, sans-serif;
+    font-weight: bolder;
+    color :rgb(82, 82, 82);
+    background-image: url('./images/rainbow.jpg');
+    background-size: cover;
+}
